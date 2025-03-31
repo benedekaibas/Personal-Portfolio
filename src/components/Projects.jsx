@@ -4,14 +4,14 @@ const projects = [
   {
     title: "Aquatic ROV Diagnosis System",
     description: "A tethered robot that collects data and uses deep learning to identify aquatic plants and assess lake health.",
-    tech: "Python, OpenCV, TensorFlow",
-    github: "https://github.com/yourusername/rov-project",
+    tech: "C++, Python, OpenCV, TensorFlow",
+    github: "https://github.com/Underwater-Robotic-System",
   },
   {
-    title: "AI-Powered Door Camera",
-    description: "Camera system using C++ and Python to identify visitors at your door in real-time.",
-    tech: "C++, Python, Raspberry Pi",
-    github: "https://github.com/yourusername/doorcam",
+    title: "Fat Pointers Benchmarking in C/C++/Rust",
+    description: "The objective of this research is to implement both normal and fat pointers in the C language, Rust and analyze their benchmarking performance.",
+    tech: "C++, C, Rust, Algorithm",
+    github: "https://github.com/benedekaibas/Fat-Pointers-Benchmarking",
   },
 ];
 
