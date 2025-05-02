@@ -3,10 +3,11 @@ import React from "react";
 const Hero = () => {
   return (
     <section
-      className="h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center relative"
+      className="h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center bg-no-repeat relative"
       id="hero"
       style={{
-        backgroundImage: "url('images/image.png')",
+        backgroundImage: "url('/images/image.png')", // Ensure the image is in the public/images folder
+        backgroundSize: "cover", // Ensures the image covers the entire section
       }}
     >
       {/* Overlay for better text readability */}
