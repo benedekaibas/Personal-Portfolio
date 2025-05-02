@@ -6,7 +6,7 @@ const Hero = () => {
       className="h-screen flex flex-col justify-center items-center text-center px-6 bg-cover bg-center relative"
       id="hero"
       style={{
-        backgroundImage: "url('image.png')",
+        backgroundImage: "url('images/image.png')",
       }}
     >
       {/* Overlay for better text readability */}
