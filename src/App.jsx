@@ -8,7 +8,12 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-gray-50 text-gray-900 scroll-smooth">
+    <div
+      className="bg-cover bg-center bg-no-repeat text-gray-900 scroll-smooth"
+      style={{
+        backgroundImage: "url('/images/image.png')", // Ensure the image is in the public/images folder
+      }}
+    >
       <Navbar />
       <Hero />
       <About />
