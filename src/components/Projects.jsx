@@ -3,13 +3,15 @@ import React from "react";
 const projects = [
   {
     title: "Aquatic ROV Diagnosis System",
-    description: "A tethered robot that collects data and uses deep learning to identify aquatic plants and assess lake health.",
+    description:
+      "A tethered robot that collects data and uses deep learning to identify aquatic plants and assess lake health.",
     tech: "C++, Python, OpenCV, TensorFlow",
     github: "https://github.com/Underwater-Robotic-System",
   },
   {
     title: "Fat Pointers Benchmarking in C/C++/Rust",
-    description: "The objective of this research is to implement both normal and fat pointers in the C language, Rust and analyze their benchmarking performance.",
+    description:
+      "The objective of this research is to implement both normal and fat pointers in the C language, Rust and analyze their benchmarking performance.",
     tech: "C++, C, Rust, Algorithm",
     github: "https://github.com/benedekaibas/Fat-Pointers-Benchmarking",
   },
@@ -17,8 +19,13 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 px-6 bg-gray-100">
-      <h3 className="text-3xl font-semibold mb-10 text-center">Projects</h3>
+    <section
+      id="projects"
+      className="py-16 px-6 bg-gradient-to-b from-gray-800 to-gray-100"
+    >
+      <h3 className="text-3xl font-semibold mb-10 text-center text-gray-900">
+        Projects
+      </h3>
       <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
         {projects.map((project, idx) => (
           <div
