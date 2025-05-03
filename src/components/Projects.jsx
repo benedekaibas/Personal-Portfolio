@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-16 px-6 bg-gradient-to-b from-gray-800 to-gray-100"
+      className="py-16 px-6 bg-gradient-to-t from-gray-100 to-gray-800"
     >
       <h3 className="text-3xl font-semibold mb-10 text-center text-gray-900">
         Projects
