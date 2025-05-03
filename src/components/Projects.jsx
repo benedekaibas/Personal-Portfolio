@@ -17,11 +17,14 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-16 px-6 bg-white">
+    <section id="projects" className="py-16 px-6 bg-gray-100">
       <h3 className="text-3xl font-semibold mb-10 text-center">Projects</h3>
       <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
         {projects.map((project, idx) => (
-          <div key={idx} className="p-6 border rounded-2xl shadow bg-gray-50">
+          <div
+            key={idx}
+            className="p-6 border rounded-2xl shadow bg-white hover:shadow-lg transition-shadow duration-300"
+          >
             <h4 className="text-xl font-semibold mb-2">{project.title}</h4>
             <p className="mb-2">{project.description}</p>
             <p className="text-sm text-gray-600 mb-2">Tech: {project.tech}</p>
