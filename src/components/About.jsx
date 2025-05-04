@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-16 px-6 bg-gradient-to-b from-gray-500 to-gray-600 text-white">
+    <section id="about" className="py-16 px-6 max-w-5xl mx-auto from-gray-600 to-gray-700 text-white">
       <h3 className="text-3xl font-semibold mb-6">About Me</h3>
       <p className="text-lg leading-relaxed">
         I am a third-year international student-athlete at Allegheny College. Thanks to a school scholarship, I am able to continue my tennis career 
